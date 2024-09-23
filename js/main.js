@@ -43,11 +43,11 @@ const toggleYellow = () => {
 // blueButton.addEventListener('click', setColor('blue'))
 // yellowButton.addEventListener('click', setColor('yellow'))
 
-/* Bugs
+/* Bugs with classList.toggle
 1. Red refuses to work unless it is the first button clicked,
 When you click another button, Red throws a fit and refuses to toggle
 
-2.*/
+2. Similar issue with blue and yellow, must be cascading*/
 
 redButton.addEventListener('click', toggleRed)
 whiteButton.addEventListener('click', toggleWhite)
